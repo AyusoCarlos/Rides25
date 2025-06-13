@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Mis viajes</title>
+</h:head>
+
+
+<h:body>
+    <h2>Mis viajes publicados</h2>
+
+    <h:dataTable value="#{myRidesBean.misRides}" var="ride" border="1">
+        <h:column>
+            <f:facet name="header">Origen</f:facet>
+            #{ride.origen}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Destino</f:facet>
+            #{ride.destino}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Fecha</f:facet>
+            <h:outputText value="#{ride.fecha}">
+                <f:convertDateTime pattern="dd/MM/yyyy" />
+            </h:outputText>
+        </h:column>
+        <h:column>
+            <f:facet name="header">Plazas</f:facet>
+            #{ride.numPlazas}
+        </h:column>
+        <h:column>
+            <f:facet name="header">Precio (€)</f:facet>
+            #{ride.precio}
+        </h:column>
+    </h:dataTable>
+
+    <h:form>
+        <h:commandButton value="Volver al menú" action="home.xhtml" />
+    </h:form>
+</h:body>
+</html>

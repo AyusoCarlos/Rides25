@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<h:head>
+    <title>Buscar Viajes</title>
+</h:head>
+
+<h:body>
+    <h:form>
+        <h2>Buscar viajes disponibles</h2>
+
+        <h:panelGrid columns="2" cellpadding="5">
+            <h:outputLabel for="origen" value="Origen:" />
+            <h:inputText id="origen" value="#{queryRideBean.origen}" />
+
+            <h:outputLabel for="destino" value="Destino:" />
+            <h:inputText id="destino" value="#{queryRideBean.destino}" />
+
+            <h:outputLabel for="fecha" value="Fecha (dd/MM/yyyy):" />
+            <h:inputText id="fecha" value="#{queryRideBean.fecha}">
+                <f:convertDateTime pattern="dd/MM/yyyy" />
+            </h:inputText>
+        </h:panelGrid>
+
+        <p>
+            <h:commandButton value="Buscar" action="#{queryRideBean.buscar}" />
+        </p>
+    </h:form>
+
+    <h:panelGroup rendered="#{not empty queryRideBean.resultados}">
+        <h2>Resultados</h2>
+        <h:dataTable value="#{queryRideBean.resultados}" var="ride" border="1">
+            <h:column>
+                <f:facet name="header">Origen</f:facet>
+                #{ride.origen}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Destino</f:facet>
+                #{ride.destino}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Fecha</f:facet>
+                <h:outputText value="#{ride.fecha}">
+                    <f:convertDateTime pattern="dd/MM/yyyy" />
+                </h:outputText>
+            </h:column>
+            <h:column>
+                <f:facet name="header">Rider</f:facet>
+                #{ride.organizador.nombre}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Plazas</f:facet>
+                #{ride.numPlazas}
+            </h:column>
+            <h:column>
+                <f:facet name="header">Precio (€)</f:facet>
+                #{ride.precio}
+            </h:column>
+        </h:dataTable>
+    </h:panelGroup>
+
+    <h:form>
+        <h:commandButton value="Volver al menú" action="home.xhtml" />
+    </h:form>
+</h:body>
+</html>

@@ -11,7 +11,6 @@ import java.io.Serializable;
 
 
 import jakarta.inject.Named;
-//import jakarta.enterprise.context.RequestScoped;
 import jakarta.enterprise.context.SessionScoped;
 
 

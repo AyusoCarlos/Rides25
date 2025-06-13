@@ -1,0 +1,95 @@
+
+êorg.is2.rides.facade.BLFacadeImplementation#registrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;y
+oC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/facade/BLFacadeImplementation.java ( "startingBlock*‰
+startingBlock  (Nç
+ä
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+nombrejava.lang.StringZ
+X
+( (.
+nombrejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2å
+â
+ (
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+emailjava.lang.StringY
+W
+7 (<
+emailjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3è
+å
+ (
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+passwordjava.lang.String\
+Z
+E (M
+passwordjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*Ÿ
+1 (ñ
+ì
+ (+
+%0%org.is2.rides.dao.HibernateDataAccess"__id*T
+
+__unknown_file (8*6-
++org.is2.rides.facade.BLFacadeImplementation"
+daoÄ˝
+ (< 
+%1org.is2.rides.dominio.User"äorg.is2.rides.dao.HibernateDataAccess#registrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;*I
+
+__unknown_file (-
++
+%0%org.is2.rides.dao.HibernateDataAccess*8
+
+__unknown_file (
+
+nombrejava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String2HregistrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)".
+ (="
+ 
+%1org.is2.rides.dominio.User:&
+! (/
+nombrejava.lang.String:%
+0 (=
+emailjava.lang.String:(
+> (M
+passwordjava.lang.StringB/-
++org.is2.rides.facade.BLFacadeImplementationH

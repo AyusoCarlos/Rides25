@@ -1,0 +1,90 @@
+
+7org.is2.rides.beans.LoginBean#login()Ljava/lang/String;k
+aC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/beans/LoginBean.java ("4*t
+2 4  (;`
+^
+ 4  (;
+%6java.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.String*
+1*t
+3 +  (1`
+^
+ +  (1
+%6java.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String*
+1*—	
+4 ( ƒ
+€
+ ( #
+%0org.is2.rides.facade.BLFacade"__id*I
+
+__unknown_file (-*+
+org.is2.rides.beans.LoginBean"
+facadet
+r
+' (,
+%1java.lang.String"__id*H
+
+__unknown_file (,**
+org.is2.rides.beans.LoginBean"
+emailw
+u
+. (6
+%2java.lang.String"__id*K
+
+__unknown_file (/*-
+org.is2.rides.beans.LoginBean"
+
+passwordòï
+ (7 
+%3org.is2.rides.dominio.User"eorg.is2.rides.facade.BLFacade#login(Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;*A
+
+__unknown_file (%
+#
+%0org.is2.rides.facade.BLFacade*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String2+login(Ljava/lang/String;Ljava/lang/String;)‰
+†
+ (74
+org.is2.rides.beans.LoginBean"
+usuarioLogueado"__id*>
+
+__unknown_file ("
+ 
+%3org.is2.rides.dominio.User‰
+†
+   ( 
+%4org.is2.rides.dominio.User"__id*R
+
+__unknown_file (6*4
+org.is2.rides.beans.LoginBean"
+usuarioLogueado~
+|
+   ('
+%5boolean"	__compare*
+    ("
+!=*.
+   ("
+ 
+%4org.is2.rides.dominio.User*
+ #  ('
+""*
+2
+3*3
+1   (<"$
+   (<
+
+%6java.lang.StringB!
+org.is2.rides.beans.LoginBeanH

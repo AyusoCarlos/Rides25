@@ -1,0 +1,15 @@
+
+2org.is2.rides.dominio.Ride#getId()Ljava/lang/Long;h
+^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java6 6("1*Ÿ
+16! 6(#l
+j
+6! 6(#
+%0java.lang.Long"__id*B
+
+__unknown_file (&*$
+org.is2.rides.dominio.Ride"
+id""
+6 6($
+
+%0java.lang.LongB
+org.is2.rides.dominio.RideH

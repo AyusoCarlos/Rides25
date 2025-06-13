@@ -1,0 +1,419 @@
+
+1.0AyusoCarlos_Rides25JavaFrontend"1749833170402*java2.B®
+5
+0src/main/java/org/is2/rides/beans/LoginBean.java2
+
+package4
+
+org.is2.rides.beans5
+"
+org.is2.rides.beans.LoginBean7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+	LoginBean12
+
+Named14
+
+unknown15
+
+annotated by16
+#
+Recovered#typeBindingLNamed;018
+
+
+uses19
+
+SessionScoped21
++
+%Recovered#typeBindingLSessionScoped;023
+4
+.org.is2.rides.beans.LoginBean.serialVersionUID25
+
+field26
+
+private27
+
+serialVersionUID28
+)
+#org.is2.rides.beans.LoginBean.email30
+
+email31
+,
+&org.is2.rides.beans.LoginBean.password33
+
+password34
+3
+-org.is2.rides.beans.LoginBean.usuarioLogueado36
+
+usuarioLogueado37
+ 
+org.is2.rides.dominio.User39
+
+is type40
+*
+$org.is2.rides.beans.LoginBean.facade42
+
+facade43
+#
+org.is2.rides.facade.BLFacade45
+1
++org.is2.rides.facade.BLFacadeImplementation47
+
+calls48
+=
+7org.is2.rides.beans.LoginBean#login()Ljava/lang/String;50
+
+method51
+
+login52
+
+
+references53
+
+returns54
+k
+eorg.is2.rides.facade.BLFacade#login(Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;56
+>
+8org.is2.rides.beans.LoginBean#logout()Ljava/lang/String;58
+
+logout59
+1
++org.is2.rides.beans.LoginBean#isLogueado()Z61
+
+
+isLogueado62
+T
+Norg.is2.rides.beans.LoginBean#getUsuarioLogueado()Lorg/is2/rides/dominio/User;64
+
+getUsuarioLogueado65
+@
+:org.is2.rides.beans.LoginBean#getEmail()Ljava/lang/String;67
+
+getEmail68
+A
+;org.is2.rides.beans.LoginBean#setEmail(Ljava/lang/String;)V70
+
+setEmail71
+C
+=org.is2.rides.beans.LoginBean#getPassword()Ljava/lang/String;73
+
+getPassword74
+D
+>org.is2.rides.beans.LoginBean#setPassword(Ljava/lang/String;)V76
+
+setPassword77J
+
+1
+12Z
+
+3	
+354jµ
+
+13
+131415
+@
+60:
+606151 *
+1+ +(26:3B
+	
+9
+10
+
+
+11
+62
+
+22
+222315
+@
+32:
+323326 *
+1 (26:3B
+	
+9
+27
+
+
+11
+34
+
+55
+555615
+@
+69:
+697051 *
+15 5(26:3B
+	
+9
+10
+
+
+11
+71
+@
+35:
+353626 *
+1 (26:3B
+	
+9
+27
+
+
+11
+37
+@
+29:
+293026 *
+1 (26:3B
+	
+9
+27
+
+
+11
+31
+
+20
+202115
+@
+24:
+242526 *
+1 (26:3B
+	
+9
+27
+
+
+11
+28
+@
+75:
+757651 *
+18 8(26:3B
+	
+9
+10
+
+
+11
+77
+
+38
+383915
+@
+57:
+575851 *
+1# #(26:3B
+	
+9
+10
+
+
+11
+59
+@
+72:
+727351 *
+17 7(26:3B
+	
+9
+10
+
+
+11
+74
+
+46
+464715
+@
+66:
+666751 *
+14 4(26:3B
+	
+9
+10
+
+
+11
+68
+
+17
+171815
+
+44
+444515
+@
+49:
+495051 *
+1 (26:3B
+	
+9
+10
+
+
+11
+52
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+63:
+636451 *
+1/ /(26:3B
+	
+9
+10
+
+
+11
+65
+@
+41:
+414226 *
+1 (26:3B
+	
+9
+27
+
+
+11
+43rË
+
+61316*
+1 (
+
+61719*
+1 (
+
+62016*
+1 (
+
+62219*
+1 (
+
+353840*
+1 (
+
+353819*
+1 (
+
+353819*
+1 (!
+
+414440*
+1 (
+
+414419*
+1 (
+
+414419*
+1 (
+
+414648*
+1# (9
+
+493819*
+1	 (
+
+493553*
+1	 (
+
+493854*
+1 (!
+
+494453*
+1 (!
+
+495548*
+1" ('
+
+494153*
+1 (!
+
+494419*
+1 (!
+
+494153*
+1 (!
+
+492953*
+1( (-
+
+493253*
+1/ (7
+
+493819*
+1   ( 
+
+493553*
+1   ( 
+
+573819*
+1$	 $(
+
+573553*
+1$	 $(
+
+572953*
+1%	 %(
+
+573253*
+1&	 &(
+
+603819*
+1, ,(
+
+603553*
+1, ,(
+
+633854*
+1/ /(
+
+633819*
+1/ /(
+
+633819*
+10 0(
+
+633553*
+10 0(
+
+662953*
+14' 4(,
+
+69619*
+15* 5(.
+
+69653*
+15* 5(.
+
+692953*
+15/ 5(4
+
+723253*
+17* 7(2
+
+75619*
+180 8(4
+
+75653*
+180 8(4
+
+753253*
+185 8(=

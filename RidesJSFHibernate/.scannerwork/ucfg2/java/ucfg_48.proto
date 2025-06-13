@@ -1,0 +1,47 @@
+
+oorg.is2.rides.facade.BLFacadeImplementation#obtenerRidesDeUsuario(Lorg/is2/rides/dominio/User;)Ljava/util/List;y
+oC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/facade/BLFacadeImplementation.java( ((+"startingBlock*î
+startingBlock(+ ((3í
+è
+' '(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+uorg.is2.rides.dominio.User_
+]
+(1 ((2
+uorg.is2.rides.dominio.User"__annotation*"
+
+__unknown_file (
+
+%2*
+1*å
+1) )(ñ
+ì
+) )(+
+%0%org.is2.rides.dao.HibernateDataAccess"__id*T
+
+__unknown_file (8*6-
++org.is2.rides.facade.BLFacadeImplementation"
+daoøº
+) )($
+%1java.util.List"borg.is2.rides.dao.HibernateDataAccess#getRidesByUser(Lorg/is2/rides/dominio/User;)Ljava/util/List;*I
+
+__unknown_file (-
++
+%0%org.is2.rides.dao.HibernateDataAccess*=
+
+__unknown_file (!
+
+uorg.is2.rides.dominio.User2,getRidesByUser(Lorg/is2/rides/dominio/User;)""
+) )(%
+
+%1java.util.List:+
+(, ((2
+uorg.is2.rides.dominio.UserB/-
++org.is2.rides.facade.BLFacadeImplementationH

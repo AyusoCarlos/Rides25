@@ -1,0 +1,17 @@
+
+borg.is2.rides.dao.HibernateDataAccess#getRidesByUser(Lorg/is2/rides/dominio/User;)Ljava/util/List;s
+iC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dao/HibernateDataAccess.javaT T($"6*!
+2W Y(&"
+W Y(&
+""*¢
+6U U("ç
+ä
+U U(5
+%0"<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;*:
+
+__unknown_file ("
+org.is2.rides.util.JPAUtil*
+2:+
+T% T(+
+uorg.is2.rides.dominio.UserB)'
+%org.is2.rides.dao.HibernateDataAccessH

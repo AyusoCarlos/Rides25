@@ -1,0 +1,95 @@
+
+}org.is2.rides.facade.BLFacadeImplementation#buscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;y
+oC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/facade/BLFacadeImplementation.java" "(!"startingBlock*ﬁ
+startingBlock"! "(Lç
+ä
+! !(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+origenjava.lang.StringZ
+X
+") "(/
+origenjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2é
+ã
+! !(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+destinojava.lang.String[
+Y
+"8 "(?
+destinojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3ä
+á
+! !(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+fechajava.util.DateW
+U
+"F "(K
+fechajava.util.Date"__annotation*"
+
+__unknown_file (
+
+%4*
+1*£
+1# #(ñ
+ì
+# #(+
+%0%org.is2.rides.dao.HibernateDataAccess"__id*T
+
+__unknown_file (8*6-
++org.is2.rides.facade.BLFacadeImplementation"
+dao÷”
+# #(6
+%1java.util.List"worg.is2.rides.dao.HibernateDataAccess#buscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*I
+
+__unknown_file (-
++
+%0%org.is2.rides.dao.HibernateDataAccess*8
+
+__unknown_file (
+
+origenjava.lang.String*9
+
+__unknown_file (
+
+destinojava.lang.String*5
+
+__unknown_file (
+
+fechajava.util.Date2AbuscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)""
+# #(7
+
+%1java.util.List:&
+"" "(0
+origenjava.lang.String:'
+"1 "(@
+destinojava.lang.String:#
+"A "(K
+fechajava.util.DateB/-
++org.is2.rides.facade.BLFacadeImplementationH

@@ -1,0 +1,131 @@
+
+¥org.is2.rides.facade.BLFacadeImplementation#crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)Lorg/is2/rides/dominio/Ride;y
+oC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/facade/BLFacadeImplementation.java ("startingBlock*è
+startingBlock (p
+Š
+ (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+origenjava.lang.StringZ
+X
+! ('
+origenjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2Ž
+‹
+ (
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+destinojava.lang.String[
+Y
+0 (7
+destinojava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3Š
+‡
+ (
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+fechajava.util.DateW
+U
+> (C
+fechajava.util.Date"__annotation*"
+
+__unknown_file (
+
+%4œ
+™
+ (
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*G
+
+__unknown_file (+
+)
+organizadororg.is2.rides.dominio.Useri
+g
+d (o)
+organizadororg.is2.rides.dominio.User"__annotation*"
+
+__unknown_file (
+
+%5*
+1*‘
+1 (–
+“
+ (+
+%0%org.is2.rides.dao.HibernateDataAccess"__id*T
+
+__unknown_file (8*6-
++org.is2.rides.facade.BLFacadeImplementation"
+dao¸µ
+ (Q 
+%1org.is2.rides.dominio.Ride"Ÿorg.is2.rides.dao.HibernateDataAccess#crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)Lorg/is2/rides/dominio/Ride;*I
+
+__unknown_file (-
++
+%0%org.is2.rides.dao.HibernateDataAccess*8
+
+__unknown_file (
+
+origenjava.lang.String*9
+
+__unknown_file (
+
+destinojava.lang.String*5
+
+__unknown_file (
+
+fechajava.util.Date*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*G
+
+__unknown_file (+
+)
+organizadororg.is2.rides.dominio.User2]crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)".
+ (R"
+ 
+%1org.is2.rides.dominio.Ride:&
+ ((
+origenjava.lang.String:'
+) (8
+destinojava.lang.String:#
+9 (D
+fechajava.util.Date: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":5
+_ (o)
+organizadororg.is2.rides.dominio.UserB/-
++org.is2.rides.facade.BLFacadeImplementationH

@@ -1,0 +1,63 @@
+
+7org.is2.rides.beans.RideBean#buscar()Ljava/lang/String;j
+`C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/beans/RideBean.java$ $("1*Â
+1% %(
+
+% %(#
+%0org.is2.rides.facade.BLFacade"__id*H
+
+__unknown_file (,**
+org.is2.rides.beans.RideBean"
+facadet
+r
+%( %(.
+%1java.lang.String"__id*H
+
+__unknown_file (,**
+org.is2.rides.beans.RideBean"
+origenu
+s
+%0 %(7
+%2java.lang.String"__id*I
+
+__unknown_file (-*+
+org.is2.rides.beans.RideBean"	
+destinoq
+o
+%8 %(=
+%3java.util.Date"__id*G
+
+__unknown_file (+*)
+org.is2.rides.beans.RideBean"
+fechaº·
+% %(>
+%4java.util.List"oorg.is2.rides.facade.BLFacade#buscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;*A
+
+__unknown_file (%
+#
+%0org.is2.rides.facade.BLFacade*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*2
+
+__unknown_file (
+
+%3java.util.Date2AbuscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)v
+t
+% %(>.
+org.is2.rides.beans.RideBean"
+
+resultados"__id*2
+
+__unknown_file (
+
+%4java.util.List"
+& &(
+
+resultadosB 
+org.is2.rides.beans.RideBeanH

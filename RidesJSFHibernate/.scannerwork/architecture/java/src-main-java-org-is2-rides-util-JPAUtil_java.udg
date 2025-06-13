@@ -1,0 +1,152 @@
+
+1.0AyusoCarlos_Rides25JavaFrontend"1749833169694*java2.Bœ
+2
+-src/main/java/org/is2/rides/util/JPAUtil.java2
+
+package4
+
+org.is2.rides.util5
+
+org.is2.rides.util.JPAUtil7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+JPAUtil12
+5
+/org.is2.rides.util.JPAUtil.entityManagerFactory14
+
+field15
+
+private16
+
+entityManagerFactory17
+
+EntityManagerFactory19
+
+unknown20
+
+is type21
+
+
+uses22
+
+returns23
+
+
+references24
+R
+Lorg.is2.rides.util.JPAUtil#buildEntityManagerFactory()LEntityManagerFactory;26
+
+calls27
+
+method28
+
+buildEntityManagerFactory29
+B
+<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;31
+
+getEntityManager32
+
+EntityManager34J
+
+1
+12Z
+
+3	
+354j©
+@
+30:
+303128 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32
+
+33
+333420
+@
+13:
+131415 *
+1	 	(26:3B
+	
+9
+16
+
+
+11
+17
+@
+25:
+252628 *
+1 (26:3B
+	
+9
+16
+
+
+11
+29
+
+18
+181920
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12rÞ
+
+131821*
+1	 	(.
+
+131822*
+1	 	(.
+
+131822*
+1	/ 	(C
+
+131823*
+1	F 	(_
+
+13624*
+1	F 	(_
+
+132527*
+1	F 	(_
+
+251823*
+1 ((
+
+251822*
+1 ((
+
+303323*
+1 ( 
+
+303322*
+1 ( 
+
+301324*
+1 ($
+
+301822*
+1 ($
+
+301324*
+1 ($

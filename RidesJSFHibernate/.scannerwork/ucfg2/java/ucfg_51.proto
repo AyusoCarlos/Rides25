@@ -1,0 +1,82 @@
+
+=org.is2.rides.beans.MyRidesBean#getMisRides()Ljava/util/List;m
+cC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/beans/MyRidesBean.java (!"4*é
+2? (Cw
+u
+? (H
+%5java.util.List"#java.util.List#of()Ljava/util/List;*.
+
+__unknown_file ("
+java.util.List\
+Z
+? (H
+%3java.util.List"__id*2
+
+__unknown_file (
+
+%5java.util.List*
+1*¸
+3 (#…
+‚
+ (##
+%6org.is2.rides.facade.BLFacade"__id*K
+
+__unknown_file (/*-!
+org.is2.rides.beans.MyRidesBean"
+facade½º
+ (<
+%4java.util.List"aorg.is2.rides.facade.BLFacade#obtenerRidesDeUsuario(Lorg/is2/rides/dominio/User;)Ljava/util/List;*A
+
+__unknown_file (%
+#
+%6org.is2.rides.facade.BLFacade*=
+
+__unknown_file (!
+
+uorg.is2.rides.dominio.User23obtenerRidesDeUsuario(Lorg/is2/rides/dominio/User;)\
+Z
+ (<
+%3java.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.List*
+1*ï
+4 (ˆ
+…
+ (#
+%0org.is2.rides.beans.LoginBean"__id*N
+
+__unknown_file (2*0!
+org.is2.rides.beans.MyRidesBean"
+	loginBeanØÕ
+ (/ 
+%1org.is2.rides.dominio.User"Norg.is2.rides.beans.LoginBean#getUsuarioLogueado()Lorg/is2/rides/dominio/User;*A
+
+__unknown_file (%
+#
+%0org.is2.rides.beans.LoginBean2getUsuarioLogueado()s
+q
+ (0
+uorg.is2.rides.dominio.User"__id*>
+
+__unknown_file ("
+ 
+%1org.is2.rides.dominio.User}
+{
+ (
+%2boolean"	__compare*
+ (
+!=*-
+ (!
+
+uorg.is2.rides.dominio.User*
+ (
+""*
+2
+3*1
+1 (I""
+ (I
+
+%3java.util.ListB#!
+org.is2.rides.beans.MyRidesBeanH

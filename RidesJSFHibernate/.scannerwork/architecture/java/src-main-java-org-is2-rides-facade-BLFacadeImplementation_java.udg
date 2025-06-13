@@ -1,0 +1,366 @@
+
+1.0AyusoCarlos_Rides25JavaFrontend"1749833169905*java2.B÷
+C
+>src/main/java/org/is2/rides/facade/BLFacadeImplementation.java2
+
+package4
+
+org.is2.rides.facade5
+0
++org.is2.rides.facade.BLFacadeImplementation7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+BLFacadeImplementation12
+#
+org.is2.rides.facade.BLFacade14
+
+unknown15
+
+
+implements16
+
+
+uses17
+5
+/org.is2.rides.facade.BLFacadeImplementation.dao19
+
+field20
+
+private21
+	
+dao22
++
+%org.is2.rides.dao.HibernateDataAccess24
+
+is type25
+
+calls26
+—
+org.is2.rides.facade.BLFacadeImplementation#registrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;28
+
+method29
+
+registrarUsuario30
+ 
+org.is2.rides.dominio.User32
+
+returns33
+
+
+references34
+‘
+Šorg.is2.rides.dao.HibernateDataAccess#registrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;36
+y
+sorg.is2.rides.facade.BLFacadeImplementation#login(Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;38
+
+login39
+q
+korg.is2.rides.dao.HibernateDataAccess#buscarUsuarioPorEmail(Ljava/lang/String;)Lorg/is2/rides/dominio/User;41
+@
+:org.is2.rides.dominio.User#getPassword()Ljava/lang/String;43
+¬
+¥org.is2.rides.facade.BLFacadeImplementation#crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)Lorg/is2/rides/dominio/Ride;45
+
+	crearRide46
+ 
+org.is2.rides.dominio.Ride48
+
+	has param49
+¦
+Ÿorg.is2.rides.dao.HibernateDataAccess#crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)Lorg/is2/rides/dominio/Ride;51
+ƒ
+}org.is2.rides.facade.BLFacadeImplementation#buscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;53
+
+buscarRides54
+}
+worg.is2.rides.dao.HibernateDataAccess#buscarRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;56
+u
+oorg.is2.rides.facade.BLFacadeImplementation#obtenerRidesDeUsuario(Lorg/is2/rides/dominio/User;)Ljava/util/List;58
+
+obtenerRidesDeUsuario59
+h
+borg.is2.rides.dao.HibernateDataAccess#getRidesByUser(Lorg/is2/rides/dominio/User;)Ljava/util/List;61J
+
+1
+12Z
+
+3	
+354j
+
+47
+474815
+
+60
+606115
+
+35
+353615
+
+40
+404115
+@
+44:
+444529 *
+1 (26:3B
+	
+9
+10
+
+
+11
+46
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+@
+37:
+373829 *
+1 (26:3B
+	
+9
+10
+
+
+11
+39
+
+50
+505115
+@
+27:
+272829 *
+1 (26:3B
+	
+9
+10
+
+
+11
+30
+
+31
+313215
+@
+57:
+575829 *
+1' '(26:3B
+	
+9
+10
+
+
+11
+59
+
+23
+232415
+9
+64
+678 *
+1
+ 
+($:3B
+	
+9
+10
+
+
+11
+12
+@
+52:
+525329 *
+1! !(26:3B
+	
+9
+10
+
+
+11
+54
+
+13
+131415
+
+42
+424315
+
+55
+555615rú
+
+
+61316*
+1
+0 
+(8
+
+61317*
+1
+0 
+(8
+
+182325*
+1 ( 
+
+182317*
+1 ( 
+
+182317*
+1! ($
+
+182326*
+1+ (>
+
+273133*
+1 (
+
+273117*
+1 (
+
+273133*
+1 (
+
+272334*
+1 (
+
+273526*
+1 ($
+
+271834*
+1 (
+
+272317*
+1 (
+
+271834*
+1 (
+
+373133*
+1 (
+
+373117*
+1 (
+
+373125*
+1 (
+
+373117*
+1	 (
+
+373133*
+1 (
+
+372334*
+1 (
+
+374026*
+1 (.
+
+371834*
+1 (
+
+372317*
+1 (
+
+371834*
+1 (
+
+373134*
+1 (!
+
+374226*
+1" (-
+
+444733*
+1 (
+
+443149*
+1` (d
+
+444717*
+1 (
+
+443125*
+1e (p
+
+443117*
+1` (d
+
+444733*
+1 (
+
+442334*
+1 (
+
+445026*
+1 (
+
+441834*
+1 (
+
+442317*
+1 (
+
+441834*
+1 (
+
+524717*
+1" "(
+
+522334*
+1# #(
+
+525526*
+1# #(
+
+521834*
+1# #(
+
+522317*
+1# #(
+
+521834*
+1# #(
+
+573149*
+1(- ((1
+
+574717*
+1( ((
+
+573125*
+1(2 ((3
+
+573117*
+1(- ((1
+
+572334*
+1) )(
+
+576026*
+1) )("
+
+571834*
+1) )(
+
+572317*
+1) )(
+
+571834*
+1) )(

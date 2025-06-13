@@ -1,0 +1,54 @@
+
+äorg.is2.rides.dao.HibernateDataAccess#registrarUsuario(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/is2/rides/dominio/User;s
+iC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dao/HibernateDataAccess.java ( "15*§
+15 ("ç
+ä
+ (5
+%0"<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;*:
+
+__unknown_file ("
+org.is2.rides.util.JPAUtil*
+12*?
+8 ("0
+ ($
+"
+userorg.is2.rides.dominio.User*ã
+11 (:v
+t
+ (:"
+userorg.is2.rides.dominio.User"__id*>
+
+__unknown_file ("
+ 
+%1org.is2.rides.dominio.User*
+8*¡
+12! ('JH
+ (  
+%1org.is2.rides.dominio.User"org.is2.rides.dominio.Userﬁ
+€
+ (9
+%2"Zorg.is2.rides.dominio.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*>
+
+__unknown_file ("
+ 
+%1org.is2.rides.dominio.User*8
+
+__unknown_file (
+
+nombrejava.lang.String*7
+
+__unknown_file (
+
+emailjava.lang.String*:
+
+__unknown_file (
+
+passwordjava.lang.String*
+11:&
+! (/
+nombrejava.lang.String:%
+0 (=
+emailjava.lang.String:(
+> (M
+passwordjava.lang.StringB)'
+%org.is2.rides.dao.HibernateDataAccessH`

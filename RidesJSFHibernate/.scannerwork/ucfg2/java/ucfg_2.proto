@@ -1,0 +1,72 @@
+
+üorg.is2.rides.dao.HibernateDataAccess#crearRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)Lorg/is2/rides/dominio/Ride;s
+iC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dao/HibernateDataAccess.java0 0("15*§
+151 1("ç
+ä
+1 1(5
+%0"<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;*:
+
+__unknown_file ("
+org.is2.rides.util.JPAUtil*
+12*?
+8: :("0
+: :($
+"
+rideorg.is2.rides.dominio.Ride*ã
+116 6(Vv
+t
+6 6(V"
+rideorg.is2.rides.dominio.Ride"__id*>
+
+__unknown_file ("
+ 
+%1org.is2.rides.dominio.Ride*
+8*Î
+126! 6('JH
+6 6(  
+%1org.is2.rides.dominio.Ride"org.is2.rides.dominio.Rideà
+Ö
+6 6(U
+%2"vorg.is2.rides.dominio.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLorg/is2/rides/dominio/User;)V*>
+
+__unknown_file ("
+ 
+%1org.is2.rides.dominio.Ride*8
+
+__unknown_file (
+
+origenjava.lang.String*9
+
+__unknown_file (
+
+destinojava.lang.String*5
+
+__unknown_file (
+
+fechajava.util.Date*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*G
+
+__unknown_file (+
+)
+organizadororg.is2.rides.dominio.User*
+11:&
+0 0((
+origenjava.lang.String:'
+0) 0(8
+destinojava.lang.String:#
+09 0(D
+fechajava.util.Date: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":5
+0_ 0(o)
+organizadororg.is2.rides.dominio.UserB)'
+%org.is2.rides.dao.HibernateDataAccessH`

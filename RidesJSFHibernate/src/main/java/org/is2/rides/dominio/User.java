@@ -2,6 +2,7 @@ package org.is2.rides.dominio;
 
 import java.util.*;
 
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,6 +10,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import javax.persistence.FetchType;
 
 @Entity
 @Table(name = "users")
@@ -24,7 +28,8 @@ public class User {
 
     private String password;
 
-    @OneToMany(mappedBy = "organizador", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "organizador", cascade = CascadeType.ALL, orphanRemoval = true ,fetch = FetchType.LAZY)
+    @JsonManagedReference
     private List<Ride> rides = new ArrayList<>();
 
     public User() {

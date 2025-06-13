@@ -61,12 +61,19 @@
 		    <version>1.3.2</version>
 		</dependency>
 		
-		<!-- Eliminar esto -->
+		
 		<dependency>
 		  <groupId>org.glassfish</groupId>
 		  <artifactId>jakarta.faces</artifactId>
 		  <version>3.0.0</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-annotations</artifactId>
+		    <version>2.15.2</version>
+		</dependency>
+
 
 
 
@@ -74,6 +81,15 @@
 
 <build>
     <plugins>
+    
+    
+            <!-- Sonar plugin (solo necesario si quieres ejecutar con Maven directamente) -->
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.11.0.3922</version>
+            </plugin>
+
        
         <!-- Plugin WAR -->
         <plugin>

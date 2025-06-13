@@ -1,5 +1,5 @@
 
-1.0AyusoCarlos_Rides25JavaFrontend"1749833169694*java2.Bœ
+1.0AyusoCarlos_Rides25JavaFrontend"1749836719167*java2.BÓ
 2
 -src/main/java/org/is2/rides/util/JPAUtil.java2
 
@@ -19,66 +19,81 @@
 simple name11
 
 JPAUtil12
-5
-/org.is2.rides.util.JPAUtil.entityManagerFactory14
+'
+!org.is2.rides.util.JPAUtil.LOGGER14
 
 field15
 
 private16
+
+LOGGER17
+
+
+uses18
+5
+/org.is2.rides.util.JPAUtil.entityManagerFactory20
 
-entityManagerFactory17
+entityManagerFactory21
 
-EntityManagerFactory19
+EntityManagerFactory23
 
-unknown20
+unknown24
 
-is type21
+is type25
 
-
-uses22
-
-returns23
+returns26
 
 
-references24
+references27
 R
-Lorg.is2.rides.util.JPAUtil#buildEntityManagerFactory()LEntityManagerFactory;26
+Lorg.is2.rides.util.JPAUtil#buildEntityManagerFactory()LEntityManagerFactory;29
 
-calls27
+calls30
 
-method28
+method31
 
-buildEntityManagerFactory29
+buildEntityManagerFactory32
 B
-<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;31
+<org.is2.rides.util.JPAUtil#getEntityManager()LEntityManager;34
 
-getEntityManager32
+getEntityManager35
 
-EntityManager34J
+EntityManager37J
 
 1
 12Z
 
 3	
-354j©
+354jë
 @
-30:
-303128 *
-1 (26:3B
+33:
+333431 *
+1 (26:3B
 	
 9
 10
 
 
 11
-32
+35
 
-33
-333420
+36
+363724
+@
+19:
+192015 *
+1 (26:3B
+	
+9
+16
+
+
+11
+21
 @
 13:
 131415 *
-1	 	(26:3B
+1 (	26:3B
 	
 9
 16
@@ -87,66 +102,77 @@ B
 11
 17
 @
-25:
-252628 *
-1 (26:3B
+28:
+282931 *
+1 (26:3B
 	
 9
 16
 
 
 11
-29
+32
 
-18
-181920
+22
+222324
 9
 64
 678 *
-1 (:3B
+1
+ 
+(:3B
 	
 9
 10
 
 
 11
-12rÞ
-
-131821*
-1	 	(.
-
-131822*
-1	 	(.
-
-131822*
-1	/ 	(C
-
-131823*
-1	F 	(_
+12r®
 
-13624*
-1	F 	(_
+13618*
+18 (?
 
-132527*
-1	F 	(_
+192225*
+1 (.
 
-251823*
-1 ((
+192218*
+1 (.
 
-251822*
-1 ((
+192218*
+1/ (C
 
-303323*
-1 ( 
+192226*
+1F (_
+
+19627*
+1F (_
 
-303322*
-1 ( 
+192830*
+1F (_
 
-301324*
-1 ($
+282226*
+1 ((
 
-301822*
-1 ($
+282218*
+1 ((
 
-301324*
-1 ($
+281327*
+1 (
+
+281327*
+1 (
+
+333626*
+1 ( 
+
+333618*
+1 ( 
+
+331927*
+1 ($
+
+332218*
+1 ($
+
+331927*
+1 ($

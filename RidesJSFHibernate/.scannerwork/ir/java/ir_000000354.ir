@@ -1,5 +1,5 @@
-.this@ @("org.is2.rides.dominio.Ride#fecha@ @(#"java.util.Date"7'
+.thisC C("org.is2.rides.dominio.Ride#fechaC C(#"java.util.Date"7'
 %
-@' @(9"#set-field# fecha:
+C' C(9"#set-field# fecha:
 
-@; @(<*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+C; C(<*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

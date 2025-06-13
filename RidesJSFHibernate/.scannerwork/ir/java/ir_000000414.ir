@@ -1,4 +1,4 @@
-1this/ /(""org.is2.rides.beans.LoginBean"^L
+1this. .(""org.is2.rides.beans.LoginBean"^L
 J
-0 0("#get-field# usuarioLogueado:Borg.is2.rides.dominio.User
-0 0(*aC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/beans/LoginBean.java
+/ /("#get-field# usuarioLogueado:Borg.is2.rides.dominio.User
+/ /(*aC:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/beans/LoginBean.java

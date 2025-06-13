@@ -1,5 +1,5 @@
-.this: :("org.is2.rides.dominio.Ride&origen: :('"java.lang.String"8(
+.this= =("org.is2.rides.dominio.Ride&origen= =('"java.lang.String"8(
 &
-:+ :(?"#set-field# origen:
+=+ =(?"#set-field# origen:
 
-:A :(B*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+=A =(B*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

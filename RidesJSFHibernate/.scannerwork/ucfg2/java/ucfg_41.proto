@@ -1,15 +1,15 @@
 
 5org.is2.rides.dominio.User#getRides()Ljava/util/List;h
-^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/User.java4 4("1*¢
-14* 4(/o
+^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/User.java9 9("1*¢
+19* 9(/o
 m
-4* 4(/
+9* 9(/
 %0java.util.List"__id*E
 
 __unknown_file ()*'
 org.is2.rides.dominio.User"
 rides""
-4# 4(0
+9# 9(0
 
 %0java.util.ListB
 org.is2.rides.dominio.UserH

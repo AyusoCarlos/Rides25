@@ -1,16 +1,16 @@
-.this, ,("org.is2.rides.dominio.Ride&origen, ,("java.lang.String'destino, ,(-"java.lang.String#fecha,/ ,(9"java.util.Date	numPlazas,; ,(H"intprecio,J ,(V"float5organizador,X ,(h"org.is2.rides.dominio.User"’(
+.this/ /("org.is2.rides.dominio.Ride&origen/ /("java.lang.String'destino/ /(-"java.lang.String#fecha// /(9"java.util.Date	numPlazas/; /(H"intprecio/J /(V"float5organizador/X /(h"org.is2.rides.dominio.User"’(
 &
-- -("#set-field# origen:)
+0 0("#set-field# origen:)
 '
-. .(	"#set-field# destino:'
+1 1(	"#set-field# destino:'
 %
-/ /(
+2 2(
 "#set-field# fecha:+
 )
-0 0(""#set-field# numPlazas:(
+3 3(""#set-field# numPlazas:(
 &
-1 1("#set-field# precio:-
+4 4("#set-field# precio:-
 +
-2 2(&"#set-field# organizador:
+5 5(&"#set-field# organizador:
 
-3 3(*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+6 6(*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

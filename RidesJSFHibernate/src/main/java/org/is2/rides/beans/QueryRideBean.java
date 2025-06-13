@@ -20,7 +20,7 @@ public class QueryRideBean implements Serializable {
 
     private List<Ride> resultados;
 
-    private BLFacade facade = new BLFacadeImplementation();
+    private transient  BLFacade facade = new BLFacadeImplementation();
 
     public void buscar() {
         resultados = facade.buscarRides(origen, destino, fecha);

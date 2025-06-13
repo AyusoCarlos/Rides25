@@ -1,15 +1,15 @@
 
 5org.is2.rides.dominio.Ride#getFecha()Ljava/util/Date;h
-^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java? ?("1*¢
-1?$ ?()o
+^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.javaB B("1*¢
+1B$ B()o
 m
-?$ ?()
+B$ B()
 %0java.util.Date"__id*E
 
 __unknown_file ()*'
 org.is2.rides.dominio.Ride"
 fecha""
-? ?(*
+B B(*
 
 %0java.util.DateB
 org.is2.rides.dominio.RideH

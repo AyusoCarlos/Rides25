@@ -1,15 +1,15 @@
 
 2org.is2.rides.dominio.User#getId()Ljava/lang/Long;h
-^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/User.java( (("1*Ÿ
-1(! ((#l
+^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/User.java- -("1*Ÿ
+1-! -(#l
 j
-(! ((#
+-! -(#
 %0java.lang.Long"__id*B
 
 __unknown_file (&*$
 org.is2.rides.dominio.User"
 id""
-( (($
+- -($
 
 %0java.lang.LongB
 org.is2.rides.dominio.UserH

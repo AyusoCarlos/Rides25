@@ -1,4 +1,4 @@
-.thisE E("org.is2.rides.dominio.Ride"@.
+.thisH H("org.is2.rides.dominio.Ride"@.
 ,
-E& E(,"#get-field# precio:Bfloat
-E E(-*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+H& H(,"#get-field# precio:Bfloat
+H H(-*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

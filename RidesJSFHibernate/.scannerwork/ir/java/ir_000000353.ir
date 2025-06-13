@@ -1,4 +1,4 @@
-.this? ?("org.is2.rides.dominio.Ride"H6
+.thisB B("org.is2.rides.dominio.Ride"H6
 4
-?$ ?()"#get-field# fecha:Bjava.util.Date
-? ?(**^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+B$ B()"#get-field# fecha:Bjava.util.Date
+B B(**^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

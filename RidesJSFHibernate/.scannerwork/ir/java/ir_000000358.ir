@@ -1,5 +1,5 @@
-.thisF F("org.is2.rides.dominio.RideprecioF F(&"float"8(
+.thisI I("org.is2.rides.dominio.RideprecioI I(&"float"8(
 &
-F* F(>"#set-field# precio:
+I* I(>"#set-field# precio:
 
-F@ F(A*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+I@ I(A*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

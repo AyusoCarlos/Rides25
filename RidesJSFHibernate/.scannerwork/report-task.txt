@@ -3,5 +3,5 @@ projectKey=AyusoCarlos_Rides25
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.64410
 dashboardUrl=https://sonarcloud.io/dashboard?id=AyusoCarlos_Rides25
-ceTaskId=AZdqL4m66h2d0opHcKTx
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZdqL4m66h2d0opHcKTx
+ceTaskId=AZdqZbz0GNJ7OdWUT67a
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZdqZbz0GNJ7OdWUT67a

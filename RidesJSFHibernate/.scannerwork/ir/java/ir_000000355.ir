@@ -1,4 +1,4 @@
-.thisB B("org.is2.rides.dominio.Ride"A/
+.thisE E("org.is2.rides.dominio.Ride"A/
 -
-B' B(0"#get-field# numPlazas:Bint
-B  B(1*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+E' E(0"#get-field# numPlazas:Bint
+E  E(1*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java

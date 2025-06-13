@@ -1,5 +1,5 @@
-.thisC C("org.is2.rides.dominio.Ride	numPlazasC C(*"int";+
+.thisF F("org.is2.rides.dominio.Ride	numPlazasF F(*"int";+
 )
-C. C(H"#set-field# numPlazas:
+F. F(H"#set-field# numPlazas:
 
-CJ C(K*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
+FJ F(K*^C:/Users/carlo/git/repository3/RidesJSFHibernate/src/main/java/org/is2/rides/dominio/Ride.java
